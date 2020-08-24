@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:background="@color/black"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<SearchView
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="4dp"
+    android:id="@+id/edit_tag"
+    android:background="@drawable/edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/text_tag"
+        android:layout_below="@id/edit_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@id/text_tag"
+        android:focusableInTouchMode="true"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:maxLines="20"
+        android:minLines="6"
+        android:gravity="top"
+        android:textAlignment="gravity"
+        android:hint="Описание"
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_tag"/>
+
+
+</RelativeLayout>
+</layout>

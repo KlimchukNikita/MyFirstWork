@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyFirstWork</string>
+    <string name="lenta">Лента</string>
+    <string name="tests">Тесты</string>
+    <string name="camera">Камера</string>
+    <string name="history">История</string>
+    <string name="profile">Профиль</string>
+    <string name="finder">Соискатель</string>
+    <string name="bloger">Блогер</string>
+    <string name="work">Вакансии</string>
+    <string name="record">Запись</string>
+    <string name="description_info">Инфо</string>
+    <string name="permission_request">Ошибка</string>
+    <string name="camera_error">Ошибка камеры</string>
+    <string name="stop">Стоп</string>
+    <string name="intro_message">Интро Сообщение</string>
+    <string name="video_button">video_button</string>
+    <string name="camera_button">camera_button</string>
+</resources>
